@@ -1,6 +1,6 @@
 import axios from 'axios';
 const instance = axios.create({
-    baseURL : 'http://localhost:9000'
+    baseURL : 'https://whatsapp-clone-q1iq.vercel.app/'
 })
 
 export default instance ;
